@@ -1,0 +1,29 @@
+h1{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+h3{
+    color: pink;
+
+}
+
+
+.container{
+    border: 15px solid black;
+    background-color:brown;
+
+}
+
+.para{
+    border: 10px dashed gray;
+    background-color: black;
+    color:rgb(216, 73, 97);
+}
+
+.samplepicture{
+    width: 200px;
+    height: 200px;
+}
