@@ -31,7 +31,8 @@ const deletedata = (data, index)=>{
       return true //Include element in the new array 
     }
 
-return false
+return false 
+
 
   })
   console.log("deletedata:-", deletedata);
@@ -64,9 +65,11 @@ const editfn =(data, index)=>{
     <input type='text' name='inputbox' placeholder='Additem...' value={inputdata}  onChange={AddData}/>
    {isVisible ? " ": <button onClick={Submitdata}>Add</button>}
     {isVisible ? <button onClick={updatedata}>Update</button>: " "}
+    
     {
       arrayadata.map((data,index)=>{
       return(
+      
      <div>
     <ul>
       <li key={index}>{data} <button onClick={()=>deletedata(data,index)}>Delete</button>
